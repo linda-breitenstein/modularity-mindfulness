@@ -12,7 +12,12 @@
 </head>
 <body>
 
-  <header role="banner" id="banner" class="">
+  <ul class="skip-links">
+    <li><a href="#main">Skip to main</a></li>
+    <li><a href="#navigation">Skip to navigation</a></li>
+  </ul>
+
+  <header role="banner" id="banner">
     <div class="grid text-center wrapper">
       <div class="left-align unit xs-1 s-1 m-1 l-1-2">
         <h1 class="push-1-2 pad-t">
@@ -21,17 +26,17 @@
         </h1>
       </div>
       <div class="right-align unit xs-1 s-1 m-1 l-1-2 push-0">
-        <nav class="push-0" tabindex="0">
+        <nav class="push-0" tabindex="0" role="navigation" id="navigation">
           <ul class="list-group-inline nav">
-            <li class=""><a href="#" class="mega gutter-1-4" >Viewing</a></li>
-            <li class=""><a href="#" class="mega gutter-1-4" >Gravel</a></li>
-            <li class=""><a href="#" class="mega gutter-1-4">Symbolism</a></li>
+            <li><a href="#" class="mega gutter-1-4">Viewing</a></li>
+            <li><a href="#" class="mega gutter-1-4">Gravel</a></li>
+            <li><a href="#" class="mega gutter-1-4">Symbolism</a></li>
           </ul>
         </nav>
       </div>
     </div>
-    <div class="island">
-      <img class="img-flex" src="images/banner.svg" alt="banner image" role="img">
+    <div class="island embed embed-5by1">
+      <img class="img-flex embed-item" src="images/banner.svg" alt="banner image">
     </div>
   </header>
 
@@ -47,41 +52,41 @@
     <section class="grid">
 
       <div class="unit xs-1 s-1 m-1-2 l-1-3 unit-content-distribute island">
-        <div>
-          <img class="img-flex" src="images/viewing.svg" alt="viewing" role="img">
+        <div class="embed embed-3by2">
+          <img class="img-flex embed-item" src="images/viewing.svg" alt="viewing">
         </div>
         <h3 class="pad-t">
           <i lang="ja" class="not-italic exa">閲覧</i>
           <span class="block mega">Viewing</span>
         </h3>
-        <p class="">A zen garden is usually relatively small, surrounded by a wall, and is often meant to be seen while seated from a single viewpoint outside the garden, such as the porch of the hojo</p>
-        <a href="#viewing" class="btn btn-ghost">Learn more about Viewing</a>
+        <p>A zen garden is usually relatively small, surrounded by a wall, and is often meant to be seen while seated from a single viewpoint outside the garden, such as the porch of the hojo</p>
+        <a href="#" class="btn btn-ghost">Learn more about Viewing</a>
       </div>
 
       <div class="unit xs-1 s-1 m-1-2 l-1-3 unit-content-distribute island">
-        <div>
-          <img class="img-flex" src="images/gravel.svg" alt="gravel" role="img">
+        <div class="embed embed-3by2">
+          <img class="img-flex embed-item" src="images/gravel.svg" alt="gravel">
         </div>
         <h3 class="pad-t">
           <i lang="ja" class="not-italic exa pad-t">砂利</i>
           <span class="block mega">Gravel</span>
         </h3>
-        <p class="">Gravel is usually used in zen gardens because it is less disturbed by rain and wind; Shirakawa, which is a black-speckled granite from Kyoto, was prized for its ability to hold grooves</p>
-        <a href="#viewing" class="btn btn-ghost">Learn more about Gravel</a>
+        <p>Gravel is usually used in zen gardens because it is less disturbed by rain and wind; Shirakawa, which is a black-speckled granite from Kyoto, was prized for its ability to hold grooves</p>
+        <a href="#" class="btn btn-ghost">Learn more about Gravel</a>
       </div>
 
       <div class="unit xs-1 s-1 m-1 l-1-3 unit-content-distribute island">
         <div class="grid content-fill">
-          <div class="unit xs-1 s-1 m-2-3 l-1">
-            <img class="img-flex" src="images/symbolism.svg" alt="symbolism" role="img">
+          <div class="unit xs-1 s-1 m-2-3 l-1 embed embed-3by2">
+            <img class="img-flex embed-item" src="images/symbolism.svg" alt="symbolism">
           </div>
           <div class="unit xs-1 s-1 m-1-3 l-1">
             <h3 class="pad-t">
               <i lang="ja" class="not-italic exa">象徴主義</i>
               <span class="block mega">Symbolism</span>
             </h3>
-            <p class="">In the Japanese rock garden, rocks sometimes symbolize mountains (particularly Horai or they can be boats or a living creature, usually a turtle, or a carp</p>
-            <a href="#viewing" class="btn btn-ghost">Learn more about Symbolism</a>
+            <p>In the Japanese rock garden, rocks sometimes symbolize mountains (particularly Horai or they can be boats or a living creature, usually a turtle, or a carp</p>
+            <a href="#" class="btn btn-ghost">Learn more about Symbolism</a>
           </div>
         </div>
       </div>
@@ -89,7 +94,7 @@
     </section>
   </main>
 
-  <footer class="island-1-2">
+  <footer class="island-1-2" role="contentinfo">
     <small>© 794 Heian Period</small>
   </footer>
 
