@@ -1,8 +1,64 @@
+
 html {
-font-family: 'Noto Sans JP', sans-serif;
-color: #000;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+    color: #000;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+
+  *, *::before, *::after {
+    box-sizing: inherit;
+  }
+
+i {
+  font-family: "Noto Sans Japanese", sans-serif;
 }
 
-@media only screem and (min-width: 60em) {
+.nav a {
+  display: block;
+  color: #005e76;
+  text-decoration: none;
+  border-bottom: 2px solid #8bc9d9;
+}
+
+.btn-ghost a {
+  text-decoration: none;
+  color: #005e76;
+}
+
+.btn-ghost {
+  border-color: #8bc9d9;
+}
+
+.btn-ghost:hover {
+  border-color: #0084a6;
+}
+
+h2 {
+  border-top: 2px solid #e2e2e2;
+}
+
+section {
+  border-top: 2px solid #e2e2e2;
+}
+
+footer {
+  color: #666;
+  border-top: 2px solid #e2e2e2;
+}
+
+
+@media only screen and (min-width: 60em) {
+
+  .right-align {
+  text-align: right;
+}
+
+.left-align {
+  text-align: left;
+}
 
 }
