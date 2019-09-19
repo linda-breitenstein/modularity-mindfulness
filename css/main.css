@@ -19,16 +19,17 @@ i {
   color: #000;
 }
 
-.btn-ghost a {
+.btn-ghost {
   text-decoration: none;
   color: #005e76;
-}
-
-.btn-ghost {
   border-color: #8bc9d9;
+  border-width: 2px;
 }
 
 .btn-ghost:hover {
+  color: #005e76;
+  background-color: #8bc9d9;
+  border-width: 2px;
   border-color: #0084a6;
 }
 
